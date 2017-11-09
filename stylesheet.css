@@ -1,0 +1,75 @@
+/*.container
+{
+    position: relative;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); 
+}*/
+body
+{
+    background-color: lightskyblue;    
+}
+.container
+{
+    margin: 40px auto;
+    width: 700px;
+}
+
+.buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 50px;
+    width: 100%;
+}
+
+button
+{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background-color: gray;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    transition-duration: 0.3s;
+}
+
+button:hover
+{
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.grids
+{
+    width: 600px;
+    height: 600px;
+    margin: 0px auto;
+    padding: 0px;
+    border: 2px dashed black;;
+}
+
+.cells
+{
+    /* height and width done in javascript */
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+    background-color: white;
+}
+
+.cellsHovered
+{
+    color: red;
+}
